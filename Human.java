@@ -50,7 +50,7 @@ class HumanTest {
         hm2.salary = 100000;
         hm2.experience = 5;
 
-        Human hm3 = new Human(3, "Алиса", "Алексеева", "Школьник", 0, 2);
+        Human hm3 = new Human(3, "Алиса", "Алексеева", "Студент", 0, 2);
 
         HumanTest ht = new HumanTest();
         ht.printHumanInfo(hm1);
